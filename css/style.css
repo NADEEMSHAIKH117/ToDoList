@@ -1,0 +1,126 @@
+.heading{
+	/* width: 50%;
+	margin: 30px auto;
+	text-align: center;
+	color: 	#6B8E23;
+	background: #FFF8DC;
+	border: 2px solid #6B8E23;
+	border-radius: 20px; */
+	text-align: center;
+    width: 50%;
+	margin: 50px auto;
+	text-align: center;
+    color: #6B8E23;
+    background: #e5e2d7;
+    border: 3px solid #6B8E23;
+	border-radius: 20px;
+    box-shadow: 0px 7px 14px 6px #6B8E23;
+}
+body{
+    background-color:rgb(255, 254, 254);
+    /* background-image: url("../assests/images/todolist.jpg"); */
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+form {
+	width: 50%; 
+	margin: 30px auto; 
+	border-radius: 5px; 
+	padding: 10px;
+	background: #FFF8DC;
+	border: 1px solid #6B8E23;
+}
+form p {
+	color: red;
+	margin: 0px;
+}
+input {
+	/* width: 75%;
+	height: 15px; 
+	padding: 10px;
+	border: 2px solid #6B8E23; */
+	width:80% ;
+    height: 40px;
+    border: 3px solid #6B8E23;
+    border-radius:10px;
+    padding-left: 10px;
+    font-size: large;
+    box-shadow: 2px 2px 10px 2px #6B8E23;
+}
+
+.add_btn {
+	/* height: 39px;
+	background: #FFF8DC;
+	color: 	#6B8E23;
+	border: 2px solid #6B8E23;
+	border-radius: 5px; 
+	padding: 5px 20px; */
+	margin-left:  30px;
+    font-size: large;
+    padding: 10px;
+    color: #6B8E23;
+    background: #e5e2d7;
+    border: 3px solid #6B8E23;
+    border-radius: 10px;
+    outline: none;
+    box-shadow: 2px 2px 10px 2px black;
+}
+.add_btn:hover{
+    cursor: pointer;
+}
+
+table {
+    width: 50%;
+    margin: 30px auto;
+    border-collapse: collapse;
+}
+
+tr {
+	border-bottom: 1px solid #cbcbcb;
+}
+
+th {
+	/* margin-left: 10px; */
+	font-size: 25px;
+	color: #6B8E23;
+}
+.srNo{
+	text-align: start;	
+}
+.tasks{
+	text-align: justify;
+}
+.fa-solid{
+    color: #6B8E23;
+    cursor: pointer;
+    font-size: large;
+    transition: all 0.3s;
+}
+.fa-solid:hover{
+    transform:scale(1.3);
+}
+
+th, td{
+	border: none;
+    height: 30px;
+    padding: 2px;
+}
+
+tr:hover {
+	background: #E9E9E9;
+}
+
+.task {
+	text-align: justify;
+}
+
+.delete{
+	text-align: center;
+}
+.delete a{
+	color: white;
+	background: #ffffff;
+	padding: 1px 6px;
+	border-radius: 3px;
+	text-decoration: none;
+}
